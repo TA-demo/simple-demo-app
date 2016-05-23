@@ -1,5 +1,7 @@
 echo "defect" >> dummy.txt 
 git commit -am "defect #1001: commit"
+echo "effect" >> dummy.txt 
+git commit -am "defect #1002: commit"
 echo "story" >> dummy.txt 
 git commit -am "user story #1001: commit"
 echo "sorry" >> dummy.txt 
