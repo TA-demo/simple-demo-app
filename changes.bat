@@ -21,4 +21,20 @@ echo "story" >> dummy.txt
 git commit -am "user story #1055: commit"
 echo "sorry" >> dummy.txt 
 git commit -am "user story #1056: commit"
+
+
+echo "story" >> dummy.txt 
+git commit -am "defect #1004: commit"
+echo "sorry" >> dummy.txt 
+git commit -am "defect #1006: commit"
+echo "story" >> dummy.txt 
+git commit -am "defect #1065: commit"
+echo "sorry" >> dummy.txt 
+git commit -am "defect #1066: commit"
+echo "story" >> dummy.txt 
+git commit -am "defect #1055: commit"
+echo "sorry" >> dummy.txt 
+git commit -am "defect #1056: commit"
+
+
 git push origin master
