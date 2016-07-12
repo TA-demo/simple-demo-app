@@ -82,4 +82,3 @@ public class UserServiceTest {
         //TODo:
     }
 }
-ECHO is on.
