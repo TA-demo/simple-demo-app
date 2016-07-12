@@ -69,4 +69,3 @@ if (true) throw new RuntimeException("This test is failing now");
 
 
 }
-ECHO is on.
