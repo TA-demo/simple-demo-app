@@ -47,3 +47,4 @@
 "story"  
 "sorry"  
 "defect"  
+"effect"  
