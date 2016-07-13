@@ -37,24 +37,6 @@ echo "sorry" >> dummy.txt
 git commit -am "user story #1085: commit"
 
 
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1004: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1006: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1065: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1066: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1055: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1056: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1084: commit"
-echo "story-defect" >> dummy.txt 
-git commit -am "defect #1085: commit"
-
-
 echo.  >> src\test\java\training\account\UserServiceTest.java 
 echo.  >> src\test\java\training\account\AccountTest.java 
 echo.  >> src\main\resources\spring-security-context.xml 
