@@ -227,3 +227,4 @@
 "story"  
 "sorry"  
 "defect"  
+"effect"  
