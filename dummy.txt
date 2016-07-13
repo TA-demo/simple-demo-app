@@ -214,3 +214,4 @@
 "sorry"  
 "story"  
 "sorry"  
+"defect"  
