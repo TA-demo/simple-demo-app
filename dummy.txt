@@ -263,3 +263,4 @@
 "story"  
 "sorry"  
 "defect"  
+"effect"  
