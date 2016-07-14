@@ -64,6 +64,10 @@ git commit -am "user story #1034: commit"
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
+echo.  >> src\main\webapp\WEB-INF\web.xml
+echo.  >> src\test\java\training\account\AccountTest.java
+echo.  >> src\test\java\training\account\UserServiceTest.java 
+ 
 git commit -am "defect #1084: Fixing NullPointerException in connection pool"
 
 git push origin master
