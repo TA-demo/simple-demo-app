@@ -310,3 +310,4 @@
 "sorry"  
 ECHO is on.
 ECHO is on.
+"defect"  
