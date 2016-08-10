@@ -8,22 +8,22 @@ echo "effect" >> dummy.txt
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1062: simple fix"
+git commit -am "defect #1355: simple fix"
 echo "effect" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1016: fixing problem with permissions"
+git commit -am "defect #1354: fixing problem with permissions"
 echo "effect" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1025: fixing unstable connection"
+git commit -am "defect #1352: fixing unstable connection"
 echo "effect" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1026: problems with connection pool"
+git commit -am "defect #1353: problems with connection pool"
 
 
 
@@ -53,22 +53,22 @@ git commit -am "user story #1055: refactor of loopback"
 echo "sorry" >> dummy.txt 
 git commit -am "user story #1056: widget configuration"
 echo "story" >> dummy.txt 
-git commit -am "user story #1084: log analysis"
+git commit -am "user story #1379: log analysis"
 echo "sorry" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1085: more resourcest"
+git commit -am "user story #1380: more resourcest"
 echo "sorry" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1033: persistency check for new accounts"
+git commit -am "user story #1370: persistency check for new accounts"
 echo "sorry" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1034: back-to-forward request processing queue"
+git commit -am "user story #1369: back-to-forward request processing queue"
 
 
 echo.  >> src\main\resources\spring-security-context.xml 
