@@ -8,22 +8,22 @@ echo "effect" >> dummy.txt
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1355: simple fix"
+git commit -am "defect #1018: simple fix"
 echo "effect" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1354: fixing problem with permissions"
+git commit -am "defect #1019: fixing problem with permissions"
 echo "effect" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1352: fixing unstable connection"
+git commit -am "defect #1020: fixing unstable connection"
 echo "effect" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "defect #1353: problems with connection pool"
+git commit -am "defect #1021: problems with connection pool"
 
 
 
@@ -38,37 +38,37 @@ git commit -am "user story #1006: improving user service"
 echo.  >> src\test\java\training\account\AccountTest.java
 echo.  >> src\test\java\training\account\UserServiceTest.java
 echo "story" >> dummy.txt
-git commit -am "user story #1065: adding acount check"
+git commit -am "user story #1036: adding acount check"
 echo.  >> src\test\java\training\account\AccountTest.java
 echo.  >> src\test\java\training\account\UserServiceTest.java
 echo "sorry" >> dummy.txt
-git commit -am "user story #1066: simplifying request hadnling"
+git commit -am "user story #1037: simplifying request hadnling"
 echo.  >> src\test\java\training\account\AccountTest.java
 echo.  >> src\test\java\training\account\UserServiceTest.java
 echo "story" >> dummy.txt
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1055: refactor of loopback"
+git commit -am "user story #1038: refactor of loopback"
 echo "sorry" >> dummy.txt 
-git commit -am "user story #1056: widget configuration"
+git commit -am "user story #1051: widget configuration"
 echo "story" >> dummy.txt 
-git commit -am "user story #1379: log analysis"
+git commit -am "user story #1352: log analysis"
 echo "sorry" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1380: more resourcest"
+git commit -am "user story #1053: more resourcest"
 echo "sorry" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1370: persistency check for new accounts"
+git commit -am "user story #1054: persistency check for new accounts"
 echo "sorry" >> dummy.txt 
 echo.  >> src\main\resources\spring-security-context.xml 
 echo.  >> src\main\resources\persistence.properties 
 echo.  >> src\main\resources\logback.xml 
-git commit -am "user story #1369: back-to-forward request processing queue"
+git commit -am "user story #1055: back-to-forward request processing queue"
 
 
 echo.  >> src\main\resources\spring-security-context.xml 
@@ -78,6 +78,6 @@ echo.  >> src\main\webapp\WEB-INF\web.xml
 echo.  >> src\test\java\training\account\AccountTest.java
 echo.  >> src\test\java\training\account\UserServiceTest.java 
  
-git commit -am "defect #1084: Fixing NullPointerException in connection pool"
+git commit -am "defect #1020: Fixing NullPointerException in connection pool"
 
 git push origin master
