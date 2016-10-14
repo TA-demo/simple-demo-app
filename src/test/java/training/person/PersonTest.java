@@ -1,16 +1,17 @@
-package training.account;
+package training.person;
 
 import org.junit.Test;
+import training.account.Account;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
 
-public class AccountTest {
+public class PersonTest {
 
 // story 1003
 
     @Test
-    public void accountApiTest() {
+    public void personApiTest() {
         Account a = new Account("testu", "testp", "testr");
         assertEquals(a.getUsername(), "testu");
         assertEquals(a.getPassword(), "testp");
@@ -18,14 +19,14 @@ public class AccountTest {
     }
 
     @Test
-    public void accountEqualsTest() {
+    public void personEqualsTest() {
         Account a = new Account("testua", "testp", "testr");
         Account b = new Account("testu", "testp", "testr");
         assertEquals(a, b);
     }
 
     @Test
-    public void accountNotEqualsTest() {
+    public void personNotEqualsTest() {
         Account a = new Account("1testu", "testp", "testr");
         Account b = new Account("testu", "testp", "testr");
         assertNotSame(a, b);
@@ -44,7 +45,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountNotEqualsTest2() {
+    public void personNotEqualsTest2() {
         Account a = new Account("1testu", "testp", "testr");
         Account b = new Account("testu", "testp", "testr");
         assertNotSame(a, b);
@@ -66,7 +67,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountEquals2AccountsTest() {
+    public void personEquals2AccountsTest() {
         Account a, b = null;
         a = new Account("testua", "testp", "testr");
         if (Math.random() > 0.5)
@@ -75,7 +76,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountEqualsCornerCasesTest() {
+    public void personEqualsCornerCasesTest() {
         Account a, b = null;
         a = null;
         if (Math.random() > 0.5)
@@ -84,7 +85,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountToStringTest() {
+    public void personToStringTest() {
         Account a = null;
         if (Math.random() > 0.5)
             a = new Account("testu", "testp", "testr");
@@ -92,7 +93,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountPersistencyTest() {
+    public void personPersistencyTest() {
         Account a = null;
         if (Math.random() > 0.3)
             a = new Account("testu", "testp", "testr");
@@ -100,7 +101,7 @@ public class AccountTest {
     }
 
     @Test
-    public void accountHashTest() {
+    public void personHashTest() {
         Account a = new Account("testu", "testp", "testr");
         Account b = new Account("testu", "testp", "testr");
         assertEquals(a.hashCode(), b.hashCode());
