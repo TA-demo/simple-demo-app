@@ -1,4 +1,4 @@
-git config --global user.name "Billy Everyteen"
+git config --global --replace-all user.name "Billy Everyteen"
 git config --global user.email "billy@et.com"
 
 echo.  >> src\main\resources\spring-security-context.xml 
@@ -19,7 +19,7 @@ echo.  >> src\test\java\training\account\AccountTest.java
 echo.  >> src\test\java\training\account\UserServiceTest.java 
 echo "defect" >> dummy.txt 
 
-git config --global user.name "Marry Jonset"
+git config --global --replace-all user.name "Marry Jonset"
 git config --global user.email "marry@et.com"
 
 git commit -am "defect #1061: fixing NPE"
@@ -63,7 +63,7 @@ echo.  >> src\main\resources\logback.xml
 git commit -am "defect #1021: problems with connection pool"
 
 
-git config --global user.name "Eric Korsan"
+git config --global --replace-all user.name "Eric Korsan"
 git config --global user.email "eric@et.com"
 
 echo.  >> src\main\resources\spring-security-context.xml 
@@ -107,7 +107,7 @@ echo.  >> src\test\java\training\account\UserServiceTest.java
 echo "sorry" >> dummy.txt
 git commit -am "user story #1037: simplifying request hadnling"
 
-git config --global user.name "Jim Hartric"
+git config --global --replace-all user.name "Jim Hartric"
 git config --global user.email "jim@et.com"
 
 echo.  >> src\test\java\training\account\AccountTest.java
