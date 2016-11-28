@@ -1015,3 +1015,4 @@ ECHO is on.
 "effect"  
 "effect"  
 "story"  
+"sorry" 
